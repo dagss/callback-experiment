@@ -9,6 +9,6 @@ void callback(int *i) {
 
 int main() {
   int ten = 10;
-  loopcll(&ten, &callback);
+  loopcll_(&ten, &callback);
   return 0;
 }
